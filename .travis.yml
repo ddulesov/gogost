@@ -8,9 +8,6 @@ go:
   - 1.12.x
   - master
 
-matrix:
-  allow_failures:
-    - go: tip
 
 env:
   - GO111MODULE=on
