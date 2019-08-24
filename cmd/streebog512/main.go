@@ -24,8 +24,8 @@ import (
 	"io"
 	"os"
 
-	"cypherpunks.ru/gogost"
-	"cypherpunks.ru/gogost/gost34112012512"
+	"github.com/ddulesov/gogost"
+	"github.com/ddulesov/gogost/gost34112012512"
 )
 
 var (

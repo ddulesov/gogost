@@ -18,7 +18,7 @@
 package gost341264
 
 import (
-	"cypherpunks.ru/gogost/gost28147"
+	"github.com/ddulesov/gogost/gost28147"
 )
 
 const (

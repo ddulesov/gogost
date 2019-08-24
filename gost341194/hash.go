@@ -22,7 +22,7 @@ import (
 	"encoding/binary"
 	"math/big"
 
-	"cypherpunks.ru/gogost/gost28147"
+	"github.com/ddulesov/gogost/gost28147"
 )
 
 const (
