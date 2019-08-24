@@ -1,0 +1,22 @@
+dist: xenial
+sudo: false
+language: go
+
+
+go:
+  - 1.11.x
+  - 1.12.x
+  - master
+
+matrix:
+  allow_failures:
+    - go: tip
+
+env:
+  - GO111MODULE=on
+
+go_import_path: github.com/ddulesov/gogost
+
+script:
+  - go test -v ./...
+  - go vet ./...
